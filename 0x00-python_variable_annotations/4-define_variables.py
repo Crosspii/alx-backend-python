@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-''' Variable annotations for specifix types and values. '''
+"""Variable annotations for specific types and values.
+"""
 
 
 a: int = 1
