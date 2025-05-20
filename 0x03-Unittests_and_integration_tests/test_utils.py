@@ -7,7 +7,8 @@ from unittest.mock import patch
 
 
 class TestAccessNestedMap(unittest.TestCase):
-    """ Test casses for access_nested_map """
+    """Test suite for access_nested_map
+    """
 
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
